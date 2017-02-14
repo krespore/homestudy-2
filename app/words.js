@@ -7,7 +7,6 @@ module.exports = function (str) {
         obj[matches[i]] = 1
       }else {
         obj[matches[i]] += 1;
-        console.log(obj[matches[i]]);
       }
     }
     return obj
